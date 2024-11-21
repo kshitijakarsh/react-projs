@@ -1,5 +1,7 @@
 import ColorWheel from "./ColorWheel";
 import PasswordGenerator from "./PasswordGenerator";
+import Counter from "./Counter";
+import Callback from "./Callback";
 
 function App() {
 
@@ -7,8 +9,10 @@ function App() {
   return (
 
     <div>
-      <PasswordGenerator/>
-      <ColorWheel/>
+      <Callback/>
+      {/* <Counter/> */}
+      {/* <PasswordGenerator/>
+      <ColorWheel/> */}
     </div>
     
     
